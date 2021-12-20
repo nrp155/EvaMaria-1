@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@DinukaSandeepa 
-EvamariaTG
-/
-EvaMaria
-Public
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-EvaMaria/plugins/commands.py /
-@PhysicHybridTG
-PhysicHybridTG Update commands.py
-Latest commit db8d017 23 days ago
- History
- 6 contributors
-@subinps@Mahesh0253@PhysicHybridTG@Jack-of-tg@Jijinr@shamilhabeebnelli
-234 lines (215 sloc)  9.09 KB
-   
 import os
 import logging
 import random
@@ -257,16 +227,3 @@ async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
     await message.answer()
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
