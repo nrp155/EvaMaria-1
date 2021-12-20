@@ -1,5 +1,6 @@
 class script(object):
-    START_TXT = """Hi {}, I am MCF Pro Filter Bot. /n/nPowered By @MovieClubFamily"""
+    START_TXT = """Hi {}, I am MCF Pro Filter Bot. 
+    Powered By @MovieClubFamily"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 Here Is The Help For My Commands."""
     ABOUT_TXT = """✯ My Name: {}
