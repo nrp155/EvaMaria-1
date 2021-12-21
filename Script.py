@@ -1,12 +1,12 @@
 class script(object):
     START_TXT = """Hi {}, I am MCF Filter Pro Bot.
     Powered By @MovieClubFamily"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
+    HELP_TXT = """Hey {}
 Here Is The Help For My Commands."""
     ABOUT_TXT = """✯ My Name: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/IamBlackEmpire>IamBlackEmpire</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹"""
+✯ Creator: <a href=https://t.me/IamBlackEmpire>IamBlackEmpire</a>
+✯ Library: Pyrogram
+✯ Language: Python 3"""
     SOURCE_TXT = """<b>NOTE:</b>
 - MCF Filter Pro is a Closed source project. 
 
@@ -28,19 +28,19 @@ Here Is The Help For My Commands."""
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- MCF Filter Pro Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. MCF Filter Pro supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/MCF_FilterPro_Bot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+    AUTOFILTER_TXT = """Help: <b>MCF Filter Pro</b>
 
 <b>NOTE:</b>
 1. Make me the admin of your channel if it's private.
