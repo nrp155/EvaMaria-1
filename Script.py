@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """Hi {}, I am MCF Filter Pro Bot.
+    START_TXT = """Hi {}, I am MCF Filter X Bot.
     Powered By @MovieClubFamily"""
     HELP_TXT = """Hey {}
 Here Is The Help For My Commands."""
@@ -8,7 +8,7 @@ Here Is The Help For My Commands."""
 ✯ Library: Pyrogram
 ✯ Language: Python 3"""
     SOURCE_TXT = """<b>NOTE:</b>
-- MCF Filter Pro is a Closed source project. 
+- MCF Filter X is a Closed source project. 
 
 <b>DEVS:</b>
 - <a href=https://t.me/IamBlackEmpire>IamBlackEmpire</a>"""
