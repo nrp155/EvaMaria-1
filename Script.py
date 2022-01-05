@@ -14,7 +14,7 @@ Here Is The Help For My Commands."""
 - <a href=https://t.me/IamBlackEmpire>IamBlackEmpire</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and MCF Filter X will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. MCF Pro Filter should have admin privillage.
@@ -63,7 +63,7 @@ Here Is The Help For My Commands."""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of MCF Filter X
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
