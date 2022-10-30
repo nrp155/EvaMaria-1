@@ -1,17 +1,17 @@
 class script(object):
-    START_TXT = """Hi {}, I am MCF Filter X Bot.
-    Powered By @MovieClubFamily"""
+    START_TXT = """Hi {}, I am subscenelk Filter X Bot.
+    Powered By @Subscenelk"""
     HELP_TXT = """Hey {}
 Here Is The Help For My Commands."""
     ABOUT_TXT = """✯ My Name: {}
-✯ Creator: <a href=https://t.me/IamBlackEmpire>IamBlackEmpire</a>
+✯ Creator: <a href=https://t.me/Subscenelk</a>
 ✯ Library: Pyrogram
 ✯ Language: Python 3"""
     SOURCE_TXT = """<b>NOTE:</b>
 - MCF Filter X is a Closed source project. 
 
 <b>DEVS:</b>
-- <a href=https://t.me/IamBlackEmpire>IamBlackEmpire</a>"""
+- <a href=https://t.me/Subscenelk"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and MCF Filter X will respond whenever a keyword is found the message
@@ -36,11 +36,11 @@ Here Is The Help For My Commands."""
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MCF_FilterPro_Bot)</code>
+<code>[Button Text](buttonurl:https://t.me/Subscenelk)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """Help: <b>MCF Filter Pro</b>
+    AUTOFILTER_TXT = """Help: <b>subscenelk Filter Pro</b>
 
 <b>NOTE:</b>
 1. Make me the admin of your channel if it's private.
