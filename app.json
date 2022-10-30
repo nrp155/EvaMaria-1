@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/DinukaSandeepa/EvaMaria",
-    "repository": "https://github.com/DinukaSandeepa/EvaMaria",
+    "website": "https://www.subscenelk.com/",
+    "repository": "https://github.com/nrp155/EvaMaria-1",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -67,11 +67,11 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/eCPT7eDrQhU",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/eCPT7eDrQhU",
             "required": false
         },
         "COLLECTION_NAME": {
