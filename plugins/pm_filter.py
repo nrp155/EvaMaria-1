@@ -39,7 +39,7 @@ async def next_page(bot, query):
 
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("oKda", show_alert=True)
+        return await query.answer("This is someone else's search result,(මේ වෙන කෙනෙක්ගේ සර්ච් රිසල්ට් එකක්)", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -127,7 +127,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie Not Found In DataBase')
+            k = await query.message.edit('This Movie Not Found In DataBase ,මේ චිත්‍රපටය මගේ දත්ත ගබඩාවේ නොමැත')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -188,7 +188,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer("Thats not for you!!",show_alert=True)
+                await query.answer("Thats not for you,එය ඔබ වෙනුවෙන් නොවේ!!",show_alert=True)
 
 
     elif "groupcb" in query.data:
@@ -639,7 +639,8 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"මේ තියෙන්නෙ ඔයා හොයන {search} 👇"
+        cap = f"සිංහල උපසිරසි https://www.subscenelk.com/
+        මේ තියෙන්නෙ ඔයා හොයන {search} 👇"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
