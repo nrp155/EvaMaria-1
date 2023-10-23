@@ -639,7 +639,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Website https://www.subscenelk.com/, මේ තියෙන්නෙ ඔයා හොයන {search} 👇"
+        cap = f"Sinhala Sub https://www.subscenelk.com/, මේ තියෙන්නෙ ඔයා හොයන {search} 👇"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
