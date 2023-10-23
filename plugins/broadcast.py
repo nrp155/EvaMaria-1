@@ -8,7 +8,7 @@ from utils import broadcast_messages
 import asyncio
         
 @Client.on_message(filters.command("broadcast") & filters.user(ADMINS) & filters.reply)
-# https://www.subscenelk.com/p/contact-us.html
+# https://t.me/GetTGLink/4178
 async def Click it(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
